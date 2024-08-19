@@ -1,0 +1,50 @@
+body{
+    background-color: #fff0c140;
+}
+
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-item{
+    padding-right: 10px;
+}
+
+
+
+.carousel-item img {
+    width: 1300px; /* Fixed width */
+    height: 600px; /* Fixed height */
+    object-fit: cover; /* Cover the container */
+  }
+  .carousel-inner {
+    width: 1300px;
+    height: 600px;
+  }
+  .carousel-item {
+    height: 600px; /* Match the height of the images */
+  }
+
+
+  .dropdown-toggle::before {
+    display: inline-block;
+    /* margin-right: 0.255em; */
+    vertical-align: 0.16em;
+    content: "⌄";
+   /* border-top: 8px solid;
+    border-left: 7px solid transparent;
+    border-bottom: 0;
+    border-right: 0.3em solid transparent;*/
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
